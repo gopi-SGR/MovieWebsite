@@ -1,0 +1,78 @@
+.movie-cast-list {
+    padding-left: none;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .movie-cast-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 450px;
+    width: 300px;
+  }
+  .profile-img {
+    width: 100%;
+    height: 250px;
+  }
+  .name {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Roboto';
+  }
+  .character {
+    color: #e2e8f0;
+    font-size: 20px;
+    font-family: 'Roboto';
+  }
+  .movies-cast-details-container {
+    background-color: #000000;
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+    border-radius: 20px;
+  }
+  .popular-movies-list {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .heading {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Roboto';
+  }
+  .content {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto';
+  }
+  .retry-button {
+    background-color: #4f46e5;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto';
+    border: none;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    outline: none;
+    cursor: pointer;
+  }
+  .img {
+    width: 30%;
+  }
+  
