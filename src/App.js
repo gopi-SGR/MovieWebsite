@@ -56,9 +56,9 @@ class App extends Component {
       >
         <BrowserRouter>
           <Switch>
-            <Route  path="/" component={PopularMovies} />
-            <Route  path="/top-rated" component={TopRatedMovies} />
-            <Route path="/upcoming" component={UpcomingMovies} />
+            <Route exact path="/" component={PopularMovies} />
+            <Route exact path="/top-rated" component={TopRatedMovies} />
+            <Route exact path="/upcoming" component={UpcomingMovies} />
             <Route exact path="/movies/:id" component={MovieDetailedPage} />
           </Switch>
         </BrowserRouter>
